@@ -1,0 +1,37 @@
+General info:
+
+packageName identifier: com.academy.demo 
+Plugin: Flutter
+SDK version: 6.14.0
+devKey: m********************5
+User’s device: SM-G925F with API level 24 in it
+Target SDK of the App: API level 34
+AppsFlyer ID: 1713700188153-5890351156603729657
+GAID: 972fe00a-cd2d-495d-ab3e-5ae8908a471c
+Battery level: 62
+
+
+API usage:
+Init was called (Referrers logic was being invoked)
+updateUninstallToken was called with null or empty token.
+anonymizeUser was called before starting the SDK since conversions API goes out with:" deviceTrackingDisabled":"true”
+UDL is being used as we have a dlsdk.appsflyersdl.com API and we can see onDeepLinking being invoked, which is only for UDL.
+DMA was used AFTER start was called with manual consent.
+
+Exceptions:
+Remote Control (cdn-config failed with SSL Exception, networking or server issues).
+GCD returned with 404, RTA didn’t manage to find an attribution for this AppsFlyer ID.
+
+
+General flow:
+1. User is first being anonymized (Might be integration issue)
+2. App developer tried to call updateUninstallToken with a null or empty token (Might be integration issue)
+3. SDK was initiated and started (We could see Referrers logic being called)
+4. We tried to resolve DDL using UDL but got no matching NOT_FOUND
+5. We tried to get GCD data for this user but failed to do so (404)
+6. 3 seconds after the SDK was started we see that a new in-app event was invoked and we also have DMA manual consent flag, which wasn’t available before.
+
+The in-app event data is:
+Name - af_purchase_test_event1
+Values - af_price = 200.5 and af_revenue =140
+
