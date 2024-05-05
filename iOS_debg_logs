@@ -179,11 +179,3 @@ Error: (null)
     "is_first_launch" = 1;
 }
 [com.appsflyer.serial] [GCD-A03] Server retrieving finished
-[com.appsflyer.serial] [GCD-A02] -[swift_testing.AppDelegate onConversionDataSuccess:]:
-{
-    "af_message" = "organic install";
-    "af_status" = Organic;
-    "install_time" = "2024-05-05 07:22:47.258";
-    "is_first_launch" = 0;
-}
-[com.appsflyer.serial] [GCD-A03] Server retrieving finished
