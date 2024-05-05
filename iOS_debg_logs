@@ -1,0 +1,189 @@
+The app delegate must implement the window property if it wants to use a main storyboard file.
+[com.apple.main-thread] AppsFlyer SDK version 6.14.3 started build (176)
+[com.apple.main-thread] Keychain items migration status: 0
+[com.apple.main-thread] * AppsFlyer is set to debug mode. This should only be used in development environment! *
+[com.appsflyer.serial] [SKAd] Nil or bad dictionary
+[com.appsflyer.serial] [SKAd] Loaded configuration: 2
+[com.apple.main-thread] [SET] AdditionalData: {
+    brazeDeviceId = Ms4dfh243tnsdf23rS;
+}
+[com.apple.main-thread] `Apple ID` has been modified by removing `id` at prefix
+[com.apple.main-thread] `Apple ID` should has decimal character set. SDK will work not properly
+[com.apple.main-thread] [SET] Apple app ID: 050772151
+[com.apple.main-thread] [CACHE] Cache path: /Users/gilad-eshkoli/Library/Developer/CoreSimulator/Devices/61C95B63-271F-4210-8895-ED183520A293/data/Containers/Data/Application/A6CB4D07-3928-4427-9217-719AAABFE684/Library/Caches/appsflyer-v1
+[com.apple.main-thread] [SET] AppsFlyer developer key: mk*****a5
+[com.apple.main-thread] [SET] CustomerUserID: Example_CUID
+[com.apple.main-thread] [SKAd] SKAdNetwork is disabled by the developer
+[com.appsflyer.serial] [SKAN Timer] cancelling
+[com.appsflyer.serial] [DDL] Delegate: swift_testing.AppDelegate
+[com.appsflyer.serial] [DDL] Start DDL
+[com.appsflyer.serial] Dynamically loaded library: AppTrackingTransparency
+[com.appsflyer.serial] [ATT] Tracking authorization update from `oldStatus`: -255 to `newStatus`: 0
+[com.appsflyer.serial] Dynamically loaded library: AdSupport
+[com.appsflyer.serial] [DDL] Params: {
+    "att_status" = 0;
+    idfa =     {
+        type = unhashed;
+        value = "00000000-0000-0000-0000-000000000000";
+    };
+    idfv =     {
+        type = unhashed;
+        value = "3E0A8703-0ACE-4874-850F-05B8B13E7EBC";
+    };
+    "is_first" = 1;
+    lang = "";
+    os = "17.0.1";
+    "request_count" = 1;
+    "request_id" = "1714893751973-3087030";
+    timestamp = "2024-05-05T07:22:38.982";
+    type = iPhone;
+}
+DDL Timeout: 60.00000sec
+[com.appsflyer.serial] [ATT.1] waitForATTUserAuthorizationWithTimeoutInterval: 120
+[com.appsflyer.serial] [HTTP] Operation start: `Config-1`
+[com.appsflyer.serial] [CFG] Initializing `RemoteControl`
+[com.appsflyer.serial] [CFG] isSandbox: false
+[com.appsflyer.serial] [CFG] CDN URL: https://cdn-settings.whappsflyer.com/ios/v1/79334aa9d7f7cd02b59189e1d30c5802a43e32eea8e17110b226aa9d88a0367d/settings
+[AppsFlyer Exception Client] [EXM] Flush called not on didEnterBackground. Exceptions will not be sent
+[com.appsflyer.serial] Start
+[com.appsflyer.serial] [CLS] ASIdentifierManager loaded
+[com.appsflyer.serial] [CLS] ADClient not found
+[com.appsflyer.serial] [CLS] FBSDKAppEventsUtility not found
+[com.appsflyer.serial] [START] isFirstLaunch: Yes, timestamp: (null)
+[com.appsflyer.serial] [SKAd] Register app for SKAdNetwork attribution with status code: 0
+[com.appsflyer.serial] [START] Initial start of the application
+[com.appsflyer.serial] Installation detected
+[com.appsflyer.serial] Looking for previous version date
+[com.appsflyer.serial] Current cached application version: (null), new version: 1.1
+[com.appsflyer.serial] First AppsFlyer SDK launch or new version detected
+[com.appsflyer.serial] date1: 2024-05-05_102231+0300
+[com.appsflyer.serial] date2: 2024-05-05_102231+0300
+[com.appsflyer.serial] date3: 2024-05-05_102231+0300
+[com.appsflyer.serial] Generate first launch date: 2024-05-05_102239+0300
+[com.appsflyer.serial] First launch date: 2024-05-05_102239+0300
+[com.appsflyer.serial] iAD: iSearchAdsDict is nil
+[com.appsflyer.serial] [iAD]: ASA disabled: Yes
+[com.apple.NSURLSession-delegate] [CFG] CDN Data: {"data":{},"ver":"default.v1.1637149529"}
+[com.appsflyer.serial] [CFG] Applied new configuration with version: default.v1.1637149529, of type: Default from: Server
+[com.appsflyer.serial] [EXM] Configuration is invalid and will not be applied
+[afsdk-buffer-serial] [HTTP] Dealloc. Time elapsed for: `Config-1` - 0.555717945098877
+[com.appsflyer.serial] [HTTP] Operation start: `Config-1`
+[com.appsflyer.serial] [CFG] No update needed
+[afsdk-buffer-serial] [HTTP] Dealloc. Time elapsed for: `Config-1` - 0.002568960189819336
+[com.appsflyer.serial] [HTTP] Operation start: `DDL-4B043807-41DD-431E-9E84-8FDEEFAAC5D4`
+[com.appsflyer.serial] [DDL] URL: https://dlsdk.whappsflyer.com/v1.0/ios/id050772151?sdk_version=6.14&af_sig=441a588971a7629335786055e461a56cdeba808d4a701578162080dc5ce27761
+[com.appsflyer.serial] [DDL] Calling didResolveDeepLink with: (null)
+[AFSDK] Deep link not found
+[afsdk-buffer-serial] [HTTP] Dealloc. Time elapsed for: `DDL-4B043807-41DD-431E-9E84-8FDEEFAAC5D4` - 0.6568479537963867
+[com.appsflyer.serial] [HTTP] Operation start: `SKAD-s2s-launch`
+[afsdk-buffer-serial] [HTTP] Dealloc. Time elapsed for: `SKAD-s2s-launch` - 0.0001260042190551758
+Gilad -Authorized
+Gilad -Authorized
+[AppsFlyer Exception Client] [EXM] Flush called not on didEnterBackground. Exceptions will not be sent
+[com.appsflyer.serial] Start
+[com.appsflyer.serial] [CLS] ASIdentifierManager loaded
+[com.appsflyer.serial] [CLS] ADClient not found
+[com.appsflyer.serial] [CLS] FBSDKAppEventsUtility not found
+[com.appsflyer.serial] [START] isFirstLaunch: No, timestamp: 1714893759.032033
+[com.appsflyer.serial] [START] Time from last start(session): 7.199245
+[com.appsflyer.serial] Looking for previous version date
+[com.appsflyer.serial] Current cached application version: 1.1, new version: 1.1
+[com.appsflyer.serial] Use date3 from storage
+[com.appsflyer.serial] date1: 2024-05-05_102231+0300
+[com.appsflyer.serial] date2: 2024-05-05_102231+0300
+[com.appsflyer.serial] date3: 2024-05-05_102231+0300
+[com.appsflyer.serial] First launch date: 2024-05-05_102239+0300
+[com.appsflyer.serial] iAD: iSearchAdsDict is nil
+[com.appsflyer.serial] [HTTP] Operation start: `Config-1`
+[com.appsflyer.serial] [CFG] No update needed
+[com.appsflyer.serial] [HTTP] Dealloc. Time elapsed for: `Config-1` - 0.0005060434341430664
+[com.appsflyer.serial] [HTTP] Operation start: `SKAD-s2s-launch`
+[afsdk-buffer-serial] [HTTP] Dealloc. Time elapsed for: `SKAD-s2s-launch` - 7.104873657226562e-05
+[com.appsflyer.serial] [ATT] Tracking authorization update from `oldStatus`: 0 to `newStatus`: 3
+[com.appsflyer.serial] [CACHE] Caching request...(cache size: 0)
+[com.appsflyer.serial] [CACHE] Caching request...(cache size: 1)
+[afsdk-buffer-serial] Get AppStore Receipt
+[afsdk-buffer-serial] AppStore Receipt URL: file:///Users/gilad-eshkoli/Library/Developer/CoreSimulator/Devices/61C95B63-271F-4210-8895-ED183520A293/data/Containers/Data/Application/A6CB4D07-3928-4427-9217-719AAABFE684/StoreKit/receipt
+[afsdk-buffer-serial] AppStore Receipt: {"message":"App Store Receipt URL doesn't exist","data":"-1"}
+[afsdk-buffer-serial] Added Apple Ads Attribution token
+[com.appsflyer.serial] [HTTP] Operation start: `6400-1714893759.025636`
+[com.appsflyer.serial] 
+
+<~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~~+~>
+<~+~   SEND Start:   https://att-conversions.whappsflyer.com/api/v6.14/iosevent?app_id=050772151&buildnumber=6.14.3
+<~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~~+~>
+
+{"cell":{"mcc":"tv|sim","mnc":"tv|sim","ra":"tv|sim"},"uid":"1714893751973-3087030","bundlename":"SDKTest1v","platformextension":"ios_native","timestamp":"1714893759.025636","att_status":3,"platform":"x86_64","counter":"1","platform_extension_v2":{"platform":"ios_native","version":"6.14.3"},"reinstallCounter":"4","onelink_id":"oKfA","advertiserId":"00000000-0000-0000-0000-000000000000","systemversion":"17.0.1","iaecounter":"0","meta":{"ddl":{"status":"NOT_FOUND","timeout_value":60000,"from_fg":5111,"net":[656]},"api":{"enableTCFDataCollection":"false"},"rc":{"latency":531,"c_ver":"default.v1.1637149529","cdn_cache_status":{"cf_cache_status":"DYNAMIC"},"delay":531,"sig":"na","cdn_token":"79334aa9d7f7cd02b59189e1d30c5802a43e32eea8e17110b226aa9d88a0367d","res_code":200},"host":{"name":"whappsflyer.com","method":"api"},"first_launch":{"init_to_fg":4569},"att":{"queued":true},"skad":{"disabled":true,"upcv":0}},"JBDevice":false,"date3":"2024-05-05_102231+0300","deviceData":{"cpu_type":"ARM64","cpu_speed":"-1","osVersion":"99.9 (Build 99999)","ram_size":"999","cpu_64bits":"true","dim":{"y_px":2556,"x_px":1179},"brightness":"0.500000","device_model":"x86_64","cpu_count":"9"},"currentCountrycode":"US","sc_o":"simulator","open_referrer":"","systemname":"iOS","date1":"2024-05-05_102231+0300","customData":"{\"brazeDeviceId\":\"Ms4dfh243tnsdf23rS\"}","localizedmodel":"iPhone","ivc":false,"af_events_api":"1","bundleversion":"2","cksm_v2":"30e3e50038d3a194591a0c4f1b0d401b0c481b0d4e1a","model":"iPhone","eventName":"Launched","dev_key":"mk*****a5","currentLanguage":"","wifi":false,"vendorId":"3E0A8703-0ACE-4874-850F-05B8B13E7EBC","eventvalue":"","serverApiVersion":"6.14","af_timestamp":"1714893759025","advertiserIdEnabled":false,"ref":"db7329eef4753e02f2f61ae54182f260365b4da62dc7cab86fc41cde012bd3f8;0;0;0;0;0","event":"Launched","appUID":"Example_CUID","date1_2":"2024-05-05_102231+0300","disk":"999\/9999","sessioncounter":"1","date2":"2024-05-05_102231+0300","firstLaunchDate":"2024-05-05_102239+0300","originalAppsflyerId":"1714893751973-3087030","shortbundleversion":"1.1","timepassedsincelastlaunch":"-1","bundleIdentifier":"com.sokoloff06.sdktest1"}
+
+<~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~~+~>
+[com.appsflyer.serial] [HTTP] 
+Result: {
+    data = {length = 108, bytes = 0x7b226f6c 5f696422 3a226f4b 6641222c ... 696e6b2e 6d65227d };
+    dataStr = "{\"ol_id\":\"oKfA\",\"ol_ver\":13,\"ol_scheme\":\"giladtestmargot://blabla\",\"ol_domain\":\"giladtestmargot.onelink.me\"}";
+    retries = 2;
+    statusCode = 200;
+    taskIdentifier = 2;
+}                
+Error: (null)
+[com.appsflyer.serial] Loading conversion data
+[com.appsflyer.serial] [GCD-B01] GCD 5.0 URL: https://gcdsdk.whappsflyer.com/install_data/v5.0/id050772151?device_id=1714893751973-3087030
+[com.appsflyer.serial] [ReinstallDetection] Body: {
+    "app_id" = id050772151;
+    "appsflyer_id" = "1714893751973-3087030";
+    attribution =     {
+        "last_install_date" = 0;
+    };
+    "current_date" = 1714893767;
+}
+[com.appsflyer.serial] [ReinstallDetection] URL: https://dynamic-config-api.whappsflyer.com/api/dynamic-config/1
+[afsdk-buffer-serial] [CACHE] Deleting file: /Users/gilad-eshkoli/Library/Developer/CoreSimulator/Devices/61C95B63-271F-4210-8895-ED183520A293/data/Containers/Data/Application/A6CB4D07-3928-4427-9217-719AAABFE684/Library/Caches/appsflyer-v1/736586566.7018.plist
+[afsdk-buffer-serial] [HTTP] Dealloc. Time elapsed for: `6400-1714893759.025636` - 0.5212149620056152
+[afsdk-buffer-serial] Get AppStore Receipt
+[afsdk-buffer-serial] AppStore Receipt URL: file:///Users/gilad-eshkoli/Library/Developer/CoreSimulator/Devices/61C95B63-271F-4210-8895-ED183520A293/data/Containers/Data/Application/A6CB4D07-3928-4427-9217-719AAABFE684/StoreKit/receipt
+[afsdk-buffer-serial] AppStore Receipt: {"message":"App Store Receipt URL doesn't exist","data":"-1"}
+[afsdk-buffer-serial] Added Apple Ads Attribution token
+[com.appsflyer.serial] [HTTP] Operation start: `256-1714893766.206045`
+[com.appsflyer.serial] 
+
+<~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~~+~>
+<~+~   SEND Start:   https://att-launches.whappsflyer.com/api/v6.14/iosevent?app_id=050772151&buildnumber=6.14.3
+<~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~~+~>
+
+{"cell":{"mcc":"tv|sim","mnc":"tv|sim","ra":"tv|sim"},"uid":"1714893751973-3087030","bundlename":"SDKTest1v","platformextension":"ios_native","timestamp":"1714893766.206045","att_status":3,"platform":"x86_64","counter":"2","platform_extension_v2":{"platform":"ios_native","version":"6.14.3"},"reinstallCounter":"4","onelink_id":"oKfA","advertiserId":"00000000-0000-0000-0000-000000000000","systemversion":"17.0.1","iaecounter":"0","meta":{"first_launch":{"from_fg":7717,"net":513,"init_to_fg":4569},"skad":{"disabled":true,"upcv":0},"host":{"name":"whappsflyer.com","method":"api"},"att":{"queued":true}},"JBDevice":false,"date3":"2024-05-05_102231+0300","deviceData":{"cpu_type":"ARM64","cpu_speed":"-1","osVersion":"99.9 (Build 99999)","ram_size":"999","cpu_64bits":"true","dim":{"y_px":2556,"x_px":1179},"brightness":"0.500000","device_model":"x86_64","cpu_count":"9"},"currentCountrycode":"US","sc_o":"simulator","open_referrer":"","systemname":"iOS","date1":"2024-05-05_102231+0300","customData":"{\"brazeDeviceId\":\"Ms4dfh243tnsdf23rS\"}","localizedmodel":"iPhone","ivc":false,"af_events_api":"1","bundleversion":"2","cksm_v2":"7c5e1557130ff4b4591a0c4f1b0d401b0c481b0d4e1a","model":"iPhone","eventName":"Launched","dev_key":"mk*****a5","currentLanguage":"","wifi":false,"vendorId":"3E0A8703-0ACE-4874-850F-05B8B13E7EBC","eventvalue":"","serverApiVersion":"6.14","af_timestamp":"1714893766206","advertiserIdEnabled":false,"ref":"db7329eef4753e02f2f61ae54182f260365b4da62dc7cab86fc41cde012bd3f8;0;0;0;0;0","event":"Launched","appUID":"Example_CUID","date1_2":"2024-05-05_102231+0300","disk":"999\/9999","sessioncounter":"1","date2":"2024-05-05_102231+0300","firstLaunchDate":"2024-05-05_102239+0300","originalAppsflyerId":"1714893751973-3087030","shortbundleversion":"1.1","timepassedsincelastlaunch":"7","bundleIdentifier":"com.sokoloff06.sdktest1"}
+
+<~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~+~~+~>
+[com.appsflyer.serial] [HTTP] 
+Result: {
+    data = {length = 108, bytes = 0x7b226f6c 5f696422 3a226f4b 6641222c ... 696e6b2e 6d65227d };
+    dataStr = "{\"ol_id\":\"oKfA\",\"ol_ver\":13,\"ol_scheme\":\"giladtestmargot://blabla\",\"ol_domain\":\"giladtestmargot.onelink.me\"}";
+    retries = 2;
+    statusCode = 200;
+    taskIdentifier = 5;
+}                
+Error: (null)
+[com.appsflyer.serial] Loading conversion data
+[com.appsflyer.serial] [GCD-B01] GCD 5.0 URL: https://gcdsdk.whappsflyer.com/install_data/v5.0/id050772151?device_id=1714893751973-3087030
+[afsdk-buffer-serial] [CACHE] Deleting file: /Users/gilad-eshkoli/Library/Developer/CoreSimulator/Devices/61C95B63-271F-4210-8895-ED183520A293/data/Containers/Data/Application/A6CB4D07-3928-4427-9217-719AAABFE684/Library/Caches/appsflyer-v1/736586566.7031.plist
+[afsdk-buffer-serial] [HTTP] Dealloc. Time elapsed for: `256-1714893766.206045` - 0.4629579782485962
+[com.appsflyer.serial] [ReinstallDetection] Response: {
+    attribution =     {
+        "last_install_date" = 1714867200;
+    };
+}
+[com.appsflyer.serial] [ReinstallDetection] Last install date: 1714867200
+[com.appsflyer.serial] [GCD-A02] -[swift_testing.AppDelegate onConversionDataSuccess:]:
+{
+    "af_message" = "organic install";
+    "af_status" = Organic;
+    "install_time" = "2024-05-05 07:22:47.258";
+    "is_first_launch" = 1;
+}
+[com.appsflyer.serial] [GCD-A03] Server retrieving finished
+[com.appsflyer.serial] [GCD-A02] -[swift_testing.AppDelegate onConversionDataSuccess:]:
+{
+    "af_message" = "organic install";
+    "af_status" = Organic;
+    "install_time" = "2024-05-05 07:22:47.258";
+    "is_first_launch" = 0;
+}
+[com.appsflyer.serial] [GCD-A03] Server retrieving finished
