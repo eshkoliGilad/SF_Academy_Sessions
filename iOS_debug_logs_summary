@@ -1,0 +1,31 @@
+General info:
+AppID: id050772151
+Plugin: Unity
+SDK version: 6.13.2
+devKey: mk*****a5
+User’s device: Simulator running on iOS 17.0.1
+AppsFlyer ID: 1712304171000-3087030 (What is the problem here?)
+ATT: 3
+IDFV: 3E0A8703-0ACE-4874-850F-05B8B13E7EBC
+IDFA: 00000000-0000-0000-0000-000000000000 (Why?)
+
+
+API usage:
+ATT disabled by developer
+ASA disabled by developer
+waitForATT with 120 seconds
+CUID: Example_CUID
+Additional Data: Braze device ID - Ms4dfh243tnsdf23rS
+appInviteOneLinkID - 'okfA'
+setHost - with host whappsflyer.com (Why?)
+UDL was set
+
+
+Exceptions:
+SDK v6.13.2 was never available on Unity - how is this possible?
+
+
+General flow:
+1. User downloaded the app and the SDK generated an AppsFlyer ID of Friday, April 5, 2024 8:02:51
+2. SDK was only launched on the first time on Sunday, May 5, 2024 7:22:39
+3. SDK halted for 7 seconds due to waitForATT until a consent was given/declined.
