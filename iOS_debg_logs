@@ -1,4 +1,3 @@
-The app delegate must implement the window property if it wants to use a main storyboard file.
 [com.apple.main-thread] AppsFlyer SDK version 6.13.2 started build (176)
 [com.apple.main-thread] Keychain items migration status: 0
 [com.apple.main-thread] * AppsFlyer is set to debug mode. This should only be used in development environment! *
